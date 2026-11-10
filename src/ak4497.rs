@@ -18,8 +18,8 @@ const CTRL2_SMUTE: u8 = 1 << 0;
 pub enum Dif {
     Lsb16 = 0b000,
     Lsb20 = 0b001,
-    Msb32 = 0b010,
-    I2s32 = 0b011,
+    Msb32 = 0b110,
+    I2s32 = 0b111,
     Lsb24 = 0b100,
     Lsb32 = 0b101,
 }
